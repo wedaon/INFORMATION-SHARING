@@ -45,19 +45,18 @@ ex)
    
    \<pre>\<code>    
     
-    x=int(input("다이아몬드 시작부터 중앙의 길이를 입력해주시오"))
+x=int(input("다이아몬드 시작부터 중앙의 길이를 입력해주시오"))
 
 for h in range(1,x+1):
  print(" "*(x-h),"*"*(h+h-1))
 for i in range(x-1,0,-1):
  print(" "*(x-i),"*"*(2*i-1))   
    
-    \</code>\</pre>   
+  \</code>\</pre>   
 
  출력 예
   <pre><code>
-    x=int(input("다이아몬드 시작부터 중앙의 길이를 입력해주시오"))
-
+x=int(input("다이아몬드 시작부터 중앙의 길이를 입력해주시오"))
 for h in range(1,x+1):
  print(" "*(x-h),"*"*(h+h-1))
 for i in range(x-1,0,-1):
