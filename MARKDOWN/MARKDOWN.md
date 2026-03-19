@@ -78,15 +78,35 @@ ex)
    
 ***
 
-+ 링크: [제목]\(link)이런 형태로 적으며 (link,부가 표시)이렇게도 할 수 있다.
++ 링크: [제목]\(link)이런 형태로 적으며 (link, "부가 표시")이렇게도 할 수 있다.
    
  ex)   
  <pre><code>
-   [MARKDOWN](https://gist.github.com/ihoneymon/652be052a0727ad59601,마크다운에 대한 모든 것.)
+   [MARKDOWN](https://gist.github.com/ihoneymon/652be052a0727ad59601, "마크다운에 대한 모든 것".)
  </code></pre>
 
   출력 예   
-   [MARKDOWN](https://gist.github.com/ihoneymon/652be052a0727ad59601,마크다운에 대한 모든 것.)
+   [MARKDOWN](https://gist.github.com/ihoneymon/652be052a0727ad59601," 마크다운에 대한 모든 것".)
 
 ***
+   
+* 강조: 약한 강조:\*강조\*, 강한 강조:\*\*강조\*\*, ~\~검열~\~의 형태로 쓰인다.   
+   
+ex)  
+ <pre>
+   *강조*, **강한 강조**, ~~검열~~
+ </pre>
+
+  출력 예   
+  *강조*, **강한 강조**, ~~검열~~
+
+  ***
+
+  * 그 외: 줄바꿈은 문장의 끝에서 띄어쓰기를 3번 이상 하는 것으로 되며 그냥 엔터만 쳐서 넘길시 합쳐진다.
+띄어쓰기는 \&nbsp;이걸 쓰면 없어지지 않고 출력 가능하다.
+
+참조 링크: [MARKDOWN](https://gist.github.com/ihoneymon/652be052a0727ad59601," 마크다운에 대한 모든 것"
+
+### 읽어주셔서 감사합니다!
+    
 
