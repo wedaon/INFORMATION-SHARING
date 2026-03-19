@@ -42,19 +42,17 @@ ex)
 *****
 * 코드 블럭:맨 앞에 \<pre>\<code>를 쓰고 사이에 문자를 넣은 다음 맨 뒤에 \</code>\</pre>를 넣으면 코드 블럭으로 추가된다.
  > 위에서 보인 것처럼 코드 블럭안에 설명 같은 걸 적어도 문제는 없다.
-   
-   \<pre>\<code>    
-    
-x=int(input("다이아몬드 시작부터 중앙의 길이를 입력해주시오"))
-
-for h in range(1,x+1):
- print(" "*(x-h),"*"*(h+h-1))
-for i in range(x-1,0,-1):
+      
+   \<pre>\<code>     
+x=int(input("다이아몬드 시작부터 중앙의 길이를 입력해주시오"))   
+for h in range(1,x+1):   
+ print(" "*(x-h),"*"*(h+h-1))    
+for i in range(x-1,0,-1):   
  print(" "*(x-i),"*"*(2*i-1))   
-   
-  \</code>\</pre>   
+      
+  \</code>\</pre>      
 
- 출력 예
+ 출력 예   
   <pre><code>
 x=int(input("다이아몬드 시작부터 중앙의 길이를 입력해주시오"))
 for h in range(1,x+1):
