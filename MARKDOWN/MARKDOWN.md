@@ -86,7 +86,7 @@ ex)
  </code></pre>
 
   출력 예   
-   [MARKDOWN](https://gist.github.com/ihoneymon/652be052a0727ad59601," 마크다운에 대한 모든 것".)
+   [MARKDOWN](https://gist.github.com/ihoneymon/652be052a0727ad59601, " 마크다운에 대한 모든 것")
 
 ***
    
@@ -105,7 +105,7 @@ ex)
   * 그 외: 줄바꿈은 문장의 끝에서 띄어쓰기를 3번 이상 하는 것으로 되며 그냥 엔터만 쳐서 넘길시 합쳐진다.
 띄어쓰기는 \&nbsp;이걸 쓰면 없어지지 않고 출력 가능하다.
 
-참조 링크: [MARKDOWN](https://gist.github.com/ihoneymon/652be052a0727ad59601," 마크다운에 대한 모든 것"
+참조 링크: [MARKDOWN](https://gist.github.com/ihoneymon/652be052a0727ad59601, " 마크다운에 대한 모든 것")
 
 ### 읽어주셔서 감사합니다!
     
